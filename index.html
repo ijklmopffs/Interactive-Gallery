@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="module" src="./main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Virtual Gallery - Frontyssey</title>
+  </head>
+  <body>
+    <!-- Replace it with your own HTML -->
+    <h1 class="">Le Virtuelle Gallery</h1>
+    <div class="container">
+      <section class="grid">
+        <img
+          src="./assets/paintings/Starry_Night.jpg"
+          alt="Starry Night"
+          class="paintings one"
+        />
+        <img
+          src="./assets/paintings/Mona_Lisa.jpg"
+          alt="Mona Lisa"
+          class="paintings two"
+        />
+        <img
+          src="./assets/paintings/Arrangement_in_Grey_and_Black.jpg"
+          alt="Arrangement in Grey and Black"
+          class="paintings three"
+        />
+        <img
+          src="./assets/paintings/Girl_with_a_Pearl_Earring.jpg"
+          alt="Girl with a Pearl Earring"
+          class="paintings four"
+        />
+        <img
+          src="./assets/paintings/Impression_Sunrise.jpg"
+          alt="Impression Sunrise"
+          class="paintings five"
+        />
+        <img
+          src="./assets/paintings/Birth_of_Venus.jpg"
+          alt="Birth of Venus"
+          class="paintings six"
+        />
+      </section>
+
+      <section class="clicked none">
+        <div class="return">
+          <img src="./assets/icons/Icon_Back_Arrow_Default.svg" alt="" />
+          <p>Return to gallery</p>
+        </div>
+        <div class="show">
+          <img src="" alt="" class="image" />
+          <div class="text">
+            <div>
+              <h2>Author:</h2>
+              <p class="author"></p>
+            </div>
+            <div>
+              <h2 class="next">Year:</h2>
+              <p class="year"></p>
+            </div>
+            <div>
+              <h2 class="last">Description:</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
